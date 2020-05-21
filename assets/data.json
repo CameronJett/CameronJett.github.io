@@ -220,6 +220,10 @@
                 }
             ],
             "GITHUB_COMMIT": "04da5f7b792fd7b48427d749698e2215e32e918f"
+        },
+        {
+            "HEADER": "Ideas for moving forward.",
+            "DETAILS": "Error Handling.  On the backend return your objects wrapped in a ResponseEntity and write some code that throws some errors.  On the frontend Create an interface to recieve the ResponseEntity, in the call to the backend check for errors and show a message."
         }
     ]
 }
